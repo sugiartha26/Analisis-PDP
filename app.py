@@ -5,6 +5,12 @@ import matplotlib.pyplot as plt
 st.set_page_config(page_title="Analisis Konsultasi & Aduan PDP", layout="wide")
 st.title("📊 Aplikasi Analisis Konsultasi & Aduan PDP")
 
+st.markdown("""
+**📄 Sumber Data:**  
+Data diambil dari [Portal Data Terbuka Kominfo](https://data.komdigi.go.id/opendata/dataset)  
+dengan judul *Jumlah Konsultasi dan Aduan PDP per Desember 2022*.  
+""")
+
 # === Upload File ===
 uploaded_file = st.file_uploader("Unggah file Excel (.xlsx)", type=["xlsx"])
 
